@@ -1,0 +1,24 @@
+package structure
+
+
+
+requirment
+-------------------------------------------------------------------------------------
+
+devolope console based application with database as backand.
+
+package structure for banking
+-----------------------------------------------------------------
+
+com.icici.beans
+     --beans collection pojo classes.[class with getter setter and tostring]
+
+
+com.icici.client
+    -- main programme of bankig app
+
+com.icici.dao
+    --database layer
+
+com.icici.services
+   --service layers
