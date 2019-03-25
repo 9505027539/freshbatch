@@ -1,0 +1,55 @@
+1. Write an application to perform basic arithmetic operations like add, subtract, multiply & divide. You need to define a functional interface first.
+
+
+2. Write an application using lambda expressions to print Orders having 2 criteria implemented: 1) order price more than 10000 2) order status is ACCEPTED or COMPLETED.
+
+
+3. Use the functional interfaces Supplier, Consumer, Predicate & Function to invoke built-in methods from Java API.
+
+4. Remove the words that have odd lengths from the list. HINT: Use one of the new methods from JDK 8. Use removeIf() method from Collection interface.
+
+5. Create a string that consists of the first letter of each word in the list of Strings provided. HINT: Use Consumer interface & a StringBuilder to construct the result.
+
+6. Replace every word in the list with its upper case equivalent. Use replaceAll() method & UnaryOperator interface.
+
+7. Convert every key-value pair of the map into a string and append them all into a single string, in iteration order. HINT: Use Map.entrySet() method & a StringBuilder to construct the result String.
+
+8. Create a new thread that prints the numbers from the list. Use class Thread & interface Consumer.
+
+
+
+Setup:
+
+Create the following classes:
+
+class Fruit { String name; int calories; int price; String color; }
+
+class News { int newsId; String postedByUser; String commentByUser; String comment; }
+
+class Trader { String name; String city; }
+
+class Transaction { Trader trader; int year; int value; }
+
+1. Display the fruit names of low calories fruits i.e. calories < 100 sorted in descending order of calories.
+
+2. Display color wise list of fruit names.
+
+3. Display only RED color fruits sorted as per their price in ascending order.
+
+4. Find out the newsId which has received maximum comments.
+
+5. Find out how many times the word 'budget' arrived in user comments all news.
+
+6. Find out which user has posted maximum comments.
+
+7. Display commentByUser wise number of comments.
+
+8. Find all transactions in the year 2011 and sort them by value (small to high).
+
+9. What are all the unique cities where the traders work?
+
+10. Find all traders from Pune and sort them by name.
+
+11. Return a string of all traders’ names sorted alphabetically.
+
+12. Are any traders based in Indore?
